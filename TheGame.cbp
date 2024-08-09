@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TheGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TheGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Projects_C_C++/TheGame/SDL2/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image" />
+			<Add directory="C:/Projects_C_C++/TheGame/SDL2/lib" />
+		</Linker>
+		<Unit filename="Background.cpp" />
+		<Unit filename="Background.h" />
+		<Unit filename="BigBang.cpp" />
+		<Unit filename="BigBang.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Files_n_libs.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameObject.cpp" />
+		<Unit filename="GameObject.h" />
+		<Unit filename="LineManager.cpp" />
+		<Unit filename="LineManager.h" />
+		<Unit filename="NameInputManager.cpp" />
+		<Unit filename="NameInputManager.h" />
+		<Unit filename="RecordManager.cpp" />
+		<Unit filename="RecordManager.h" />
+		<Unit filename="Ship.cpp" />
+		<Unit filename="Ship.h" />
+		<Unit filename="ShipTypeManager.cpp" />
+		<Unit filename="ShipTypeManager.h" />
+		<Unit filename="Submarine.cpp" />
+		<Unit filename="Submarine.h" />
+		<Unit filename="Torpedo.cpp" />
+		<Unit filename="Torpedo.h" />
+		<Unit filename="UIText.cpp" />
+		<Unit filename="UIText.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
